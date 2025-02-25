@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            width: 800px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        .left-panel {
+            background:  #4b5d6b;
+            color: white;
+            padding: 40px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .left-panel h2 {
+            margin-bottom: 10px;
+        }
+        .left-panel img {
+            width: 80px; 
+            margin-bottom: 15px;
+        }
+        .right-panel {
+            width: 50%;
+            padding: 40px;
+            text-align: center;
+        }
+        .right-panel h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .input-box {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #1f6690;
+        }
+        .login-link {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .login-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <img src="./image/jar.png" alt="Loading..">
+            <h2>Monetory Tracker</h2>
+            <p>Track your expenses, analyze trends, and get insights into your financial health.</p>
+        </div>
+        <div class="right-panel">
+            <h2>Sign Up</h2>
+            <input type="text" class="input-box" placeholder="Full Name">
+            <input type="email" class="input-box" placeholder="Email">
+            <input type="password" class="input-box" placeholder="Password">
+            <input type="password" class="input-box" placeholder="Confirm Password">
+            <button class="btn">Sign Up</button>
+            <a href="signin.html" class="login-link">Already have an account? Sign In</a>
+        </div>
+    </div>
+</body>
+</html>
